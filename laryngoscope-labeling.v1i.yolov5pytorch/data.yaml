@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ["arytenoid cartilagerotation", "epiglottisrotation", "larynxrotation"]
+
+roboflow:
+  workspace: sidharth-kaushik-dwfrb
+  project: laryngoscope-labeling
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sidharth-kaushik-dwfrb/laryngoscope-labeling/dataset/1
